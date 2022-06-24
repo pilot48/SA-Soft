@@ -67,7 +67,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="list.php">Employee List</a> 
+      <a class="nav-link" href="employees.php">Employee List</a> 
     </div>
   </div>
 </nav>

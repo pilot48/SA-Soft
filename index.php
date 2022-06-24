@@ -75,7 +75,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="list.php">Employee List</a> 
+      <a class="nav-link" href="employees.php">Employee List</a> 
     </div>
   </div>
 </nav>
@@ -117,15 +117,15 @@
 
         <div class="mb-1">
           <label for="email">Email <span class="text-muted"> </span></label>
-          <input type="email" class="form-control" name="email" id="email" placeholder="you@example.com">
+          <input type="email" class="form-control" name="email" id="email" placeholder="you@example.com" required>
           <div class="invalid-feedback">
-            Please enter a valid email address for shipping updates.
+            Please enter a valid email address .
           </div>
         </div>
 		
 		<div class="mb-1">
           <label for="email">Date of Birth <span class="text-muted"></span></label>
-          <input type="date" class="form-control" name="date" id="date" >
+          <input type="date" class="form-control" name="date" id="date" required>
           <div class="invalid-feedback">
             Please enter a valid date.
           </div>
@@ -136,7 +136,7 @@
           <label for="address">Street </label>
           <input type="text" class="form-control" name="address" id="address" placeholder="1234 Main St" required>
           <div class="invalid-feedback">
-            Please enter your shipping address.
+            Please enter your address.
           </div>
         </div> 
 		
@@ -152,14 +152,14 @@
             <label for="state">City</label>
 			<input type="text" class="form-control" name="city" id="city" placeholder="" required>
             <div class="invalid-feedback">
-              Please provide a valid state.
+              Please provide a valid city.
             </div>
           </div>
           <div class="col-md-3 mb-1">
             <label for="zip">Code</label>
             <input type="text" class="form-control" name="code" id="code" placeholder="" required>
             <div class="invalid-feedback">
-              Zip code required.
+              Postal code required.
             </div>
           </div>
         </div>

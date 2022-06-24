@@ -68,7 +68,7 @@
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
   </head>
-  <body class="bg-light">
+  <body style="background-color: #110010; color:#ffffff">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
   <a class="navbar-brand" href="#">SA Soft</a>
@@ -124,15 +124,15 @@
 
         <div class="mb-3">
           <label for="email">Email <span class="text-muted"> </span></label>
-          <input type="email" class="form-control" name="email" id="email" value="<?= $employee['email'] ?>">
+          <input type="email" class="form-control" name="email" id="email" value="<?= $employee['email'] ?>" required>
           <div class="invalid-feedback">
-            Please enter a valid email address for shipping updates.
+            Please enter a valid email address for  updates.
           </div>
         </div>
 		
 		<div class="mb-3">
           <label for="email">Date of Birth <span class="text-muted"></span></label>
-          <input type="date" class="form-control" name="date" id="date" value="<?= $employee['dob'] ?>" >
+          <input type="date" class="form-control" name="date" id="date" value="<?= $employee['dob'] ?>" required>
           <div class="invalid-feedback">
             Please enter a valid date.
           </div>
@@ -143,7 +143,7 @@
           <label for="address">Street </label>
           <input type="text" class="form-control" name="address" id="address" value="<?= $employee['address'] ?>" required>
           <div class="invalid-feedback">
-            Please enter your shipping address.
+            Please enter your address.
           </div>
         </div> 
 		
@@ -166,7 +166,7 @@
             <label for="zip">Code</label>
             <input type="text" class="form-control" name="code" id="code" value="<?= $employee['postal'] ?>" required>
             <div class="invalid-feedback">
-              Zip code required.
+              Postal code required.
             </div>
           </div>
         </div>
